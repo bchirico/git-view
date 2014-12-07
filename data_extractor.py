@@ -172,8 +172,8 @@ def most_starred_repos():
                 
 if __name__ == '__main__':
     print 'running'
-    user = 'Neuro17'
-    password = 'Neuro321'
+    user = 'your_username'
+    password = 'your_password'
     github = authentication(user, password)
 
     init_database(user)    
